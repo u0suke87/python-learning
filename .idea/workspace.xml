@@ -23,35 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97528b78-b3ef-493c-9799-8d0b94141bc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/python-learning.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MANIFEST" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/python-learning-1.0.0.tar.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/python-learning-1.0.0/PKG-INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/python-learning-1.0.0/lesson_package/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/python-learning-1.0.0/lesson_package/talk/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/python-learning-1.0.0/lesson_package/talk/animal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/python-learning-1.0.0/lesson_package/talk/human.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/python-learning-1.0.0/lesson_package/tools/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/python-learning-1.0.0/lesson_package/tools/say.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/python-learning-1.0.0/lesson_package/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/python-learning-1.0.0/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_package/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_package/talk/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_package/talk/animal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_package/talk/human.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_package/tools/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_package/tools/say.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_package/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_file.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_control_statement.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_control_statement.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_type.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_type.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +58,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.lesson_class">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.lesson_file">
     <configuration name="lession_type.py" type="PythonConfigurationType" factoryName="Python">
       <module name="python-learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -148,6 +127,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="lesson_file" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="python-learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/.pyenv/versions/anaconda3-5.2.0/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_file.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="lesson_module_package" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="python-learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,6 +174,7 @@
       <item itemvalue="Python.lesson_control_statement" />
       <item itemvalue="Python.lesson_module_package" />
       <item itemvalue="Python.lesson_class" />
+      <item itemvalue="Python.lesson_file" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -197,56 +198,61 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="104" y="28" width="1071" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600713915044">
+    <state x="104" y="4" width="1071" height="796" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600794424042">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="104" y="28" width="1071" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800/1280.0.1920.1080@0.0.1280.800" timestamp="1600713915044" />
+    <state x="104" y="4" width="1071" height="796" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800/1280.0.1920.1080@0.0.1280.800" timestamp="1600794424042" />
     <state x="104" y="62" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800/1280.23.1920.1057@0.0.1280.800" timestamp="1600600988185" />
-    <state width="402" height="702" key="GridCell.Tab.0.bottom" timestamp="1600771120597">
+    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600794184984">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="402" height="702" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.0.1920.1080@0.0.1280.800" timestamp="1600771120597" />
+    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800/1280.0.1920.1080@0.0.1280.800" timestamp="1600794184984" />
+    <state width="402" height="702" key="GridCell.Tab.0.bottom" timestamp="1600795303074">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="402" height="702" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.0.1920.1080@0.0.1280.800" timestamp="1600795303074" />
     <state width="402" height="702" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.23.1920.1057@0.0.1280.800" timestamp="1600708905895" />
     <state width="402" height="702" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1600654202616" />
-    <state width="402" height="702" key="GridCell.Tab.0.center" timestamp="1600771120595">
+    <state width="402" height="702" key="GridCell.Tab.0.center" timestamp="1600795303071">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="402" height="702" key="GridCell.Tab.0.center/0.0.1280.800/1280.0.1920.1080@0.0.1280.800" timestamp="1600771120595" />
+    <state width="402" height="702" key="GridCell.Tab.0.center/0.0.1280.800/1280.0.1920.1080@0.0.1280.800" timestamp="1600795303071" />
     <state width="402" height="702" key="GridCell.Tab.0.center/0.0.1280.800/1280.23.1920.1057@0.0.1280.800" timestamp="1600708905892" />
     <state width="402" height="702" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1600654202615" />
-    <state width="402" height="702" key="GridCell.Tab.0.left" timestamp="1600771120594">
+    <state width="402" height="702" key="GridCell.Tab.0.left" timestamp="1600795303070">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="402" height="702" key="GridCell.Tab.0.left/0.0.1280.800/1280.0.1920.1080@0.0.1280.800" timestamp="1600771120594" />
+    <state width="402" height="702" key="GridCell.Tab.0.left/0.0.1280.800/1280.0.1920.1080@0.0.1280.800" timestamp="1600795303070" />
     <state width="402" height="702" key="GridCell.Tab.0.left/0.0.1280.800/1280.23.1920.1057@0.0.1280.800" timestamp="1600708905891" />
     <state width="402" height="702" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1600654202614" />
-    <state width="402" height="702" key="GridCell.Tab.0.right" timestamp="1600771120596">
+    <state width="402" height="702" key="GridCell.Tab.0.right" timestamp="1600795303073">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="402" height="702" key="GridCell.Tab.0.right/0.0.1280.800/1280.0.1920.1080@0.0.1280.800" timestamp="1600771120596" />
+    <state width="402" height="702" key="GridCell.Tab.0.right/0.0.1280.800/1280.0.1920.1080@0.0.1280.800" timestamp="1600795303073" />
     <state width="402" height="702" key="GridCell.Tab.0.right/0.0.1280.800/1280.23.1920.1057@0.0.1280.800" timestamp="1600708905894" />
     <state width="402" height="702" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1600654202615" />
-    <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1600719377103">
+    <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1600790536150">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="263" key="GridCell.Tab.1.bottom/0.0.1280.800/1280.0.1920.1080@0.0.1280.800" timestamp="1600719377103" />
-    <state width="1238" height="263" key="GridCell.Tab.1.center" timestamp="1600719377102">
+    <state width="1238" height="263" key="GridCell.Tab.1.bottom/0.0.1280.800/1280.0.1920.1080@0.0.1280.800" timestamp="1600790536150" />
+    <state width="1238" height="263" key="GridCell.Tab.1.center" timestamp="1600790536149">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="263" key="GridCell.Tab.1.center/0.0.1280.800/1280.0.1920.1080@0.0.1280.800" timestamp="1600719377102" />
-    <state width="1238" height="263" key="GridCell.Tab.1.left" timestamp="1600719377100">
+    <state width="1238" height="263" key="GridCell.Tab.1.center/0.0.1280.800/1280.0.1920.1080@0.0.1280.800" timestamp="1600790536149" />
+    <state width="1238" height="263" key="GridCell.Tab.1.left" timestamp="1600790536148">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="263" key="GridCell.Tab.1.left/0.0.1280.800/1280.0.1920.1080@0.0.1280.800" timestamp="1600719377100" />
-    <state width="1238" height="263" key="GridCell.Tab.1.right" timestamp="1600719377102">
+    <state width="1238" height="263" key="GridCell.Tab.1.left/0.0.1280.800/1280.0.1920.1080@0.0.1280.800" timestamp="1600790536148" />
+    <state width="1238" height="263" key="GridCell.Tab.1.right" timestamp="1600790536150">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="263" key="GridCell.Tab.1.right/0.0.1280.800/1280.0.1920.1080@0.0.1280.800" timestamp="1600719377102" />
+    <state width="1238" height="263" key="GridCell.Tab.1.right/0.0.1280.800/1280.0.1920.1080@0.0.1280.800" timestamp="1600790536150" />
     <state x="149" y="39" key="SettingsEditor" timestamp="1600696935582">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
