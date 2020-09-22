@@ -40,9 +40,6 @@
       <change afterPath="$PROJECT_DIR$/dist/python-learning-1.0.0/lesson_package/tools/say.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/dist/python-learning-1.0.0/lesson_package/utils.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/dist/python-learning-1.0.0/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_control_statement.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_module_package.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson_package/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson_package/talk/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson_package/talk/animal.py" afterDir="false" />
@@ -50,9 +47,11 @@
       <change afterPath="$PROJECT_DIR$/lesson_package/tools/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson_package/tools/say.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson_package/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_type.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_control_statement.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_control_statement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_type.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_type.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,28 +207,28 @@
     </state>
     <state x="104" y="28" width="1071" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800/1280.0.1920.1080@0.0.1280.800" timestamp="1600713915044" />
     <state x="104" y="62" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800/1280.23.1920.1057@0.0.1280.800" timestamp="1600600988185" />
-    <state width="402" height="702" key="GridCell.Tab.0.bottom" timestamp="1600724909807">
+    <state width="402" height="702" key="GridCell.Tab.0.bottom" timestamp="1600771120597">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="402" height="702" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.0.1920.1080@0.0.1280.800" timestamp="1600724909807" />
+    <state width="402" height="702" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.0.1920.1080@0.0.1280.800" timestamp="1600771120597" />
     <state width="402" height="702" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.23.1920.1057@0.0.1280.800" timestamp="1600708905895" />
     <state width="402" height="702" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1600654202616" />
-    <state width="402" height="702" key="GridCell.Tab.0.center" timestamp="1600724909805">
+    <state width="402" height="702" key="GridCell.Tab.0.center" timestamp="1600771120595">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="402" height="702" key="GridCell.Tab.0.center/0.0.1280.800/1280.0.1920.1080@0.0.1280.800" timestamp="1600724909805" />
+    <state width="402" height="702" key="GridCell.Tab.0.center/0.0.1280.800/1280.0.1920.1080@0.0.1280.800" timestamp="1600771120595" />
     <state width="402" height="702" key="GridCell.Tab.0.center/0.0.1280.800/1280.23.1920.1057@0.0.1280.800" timestamp="1600708905892" />
     <state width="402" height="702" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1600654202615" />
-    <state width="402" height="702" key="GridCell.Tab.0.left" timestamp="1600724909804">
+    <state width="402" height="702" key="GridCell.Tab.0.left" timestamp="1600771120594">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="402" height="702" key="GridCell.Tab.0.left/0.0.1280.800/1280.0.1920.1080@0.0.1280.800" timestamp="1600724909804" />
+    <state width="402" height="702" key="GridCell.Tab.0.left/0.0.1280.800/1280.0.1920.1080@0.0.1280.800" timestamp="1600771120594" />
     <state width="402" height="702" key="GridCell.Tab.0.left/0.0.1280.800/1280.23.1920.1057@0.0.1280.800" timestamp="1600708905891" />
     <state width="402" height="702" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1600654202614" />
-    <state width="402" height="702" key="GridCell.Tab.0.right" timestamp="1600724909806">
+    <state width="402" height="702" key="GridCell.Tab.0.right" timestamp="1600771120596">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="402" height="702" key="GridCell.Tab.0.right/0.0.1280.800/1280.0.1920.1080@0.0.1280.800" timestamp="1600724909806" />
+    <state width="402" height="702" key="GridCell.Tab.0.right/0.0.1280.800/1280.0.1920.1080@0.0.1280.800" timestamp="1600771120596" />
     <state width="402" height="702" key="GridCell.Tab.0.right/0.0.1280.800/1280.23.1920.1057@0.0.1280.800" timestamp="1600708905894" />
     <state width="402" height="702" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1600654202615" />
     <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1600719377103">

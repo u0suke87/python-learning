@@ -370,8 +370,8 @@ def check():
             raise UpperCaseError
 
 
-check()
-# try:
-#     check()
-# except UpperCaseError as e:
-#     print("This error is my fault.")
+#check()
+try:
+    check()
+except UpperCaseError as e:
+    print("This error is my fault.")

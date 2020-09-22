@@ -1,4 +1,4 @@
-# 型宣言
+# 型宣言 typehint
 from typing import List
 
 name: str = 'Mike'
@@ -166,14 +166,14 @@ print(type(t4))
 new_tuple = t3 + (2, 3, 4,)
 print(new_tuple)
 
-# タプルを展開した宣言
+# タプルを展開した宣言 アンパッキング
 num_tuple = (10, 20)
 x, y = num_tuple
 print(x, y)
 min, max = 0, 100
 print(min, max)
 
-# アンパックでswapする
+# アンパッキングでswapする
 i = 10
 j = 20
 print(i, j)

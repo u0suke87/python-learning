@@ -187,8 +187,6 @@ class Person(object):
 
 class Car(object):
     def run(self):
-        print('run')
-    def run(self):
         print('car run')
 
 
