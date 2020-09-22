@@ -174,3 +174,97 @@ os.remove('test.tar.gz')
 os.remove('renamed.txt')
 os.remove('symlink.txt')
 os.remove('test.csv')
+
+
+import zipfile
+
+# zipファイルの作成
+with zipfile.ZipFile('test.zip', 'w') as z:
+    for f in glob.glob('test_dir/**', recursive=True):
+        #print(f)
+        z.write(f)
+
+with zipfile.ZipFile('test.zip', 'r') as z:
+    # z.extractall('zzz2')
+    with z.open('test_dir/test.txt') as f:
+        print(f.read())
+
+import tempfile
+
+
+with tempfile.TemporaryFile(mode='w+') as t:
+    t.write('hello')
+    t.seek(0)
+    print(t.read())
+
+# temporaryファイルを作成して、消したく無い場合
+with tempfile.NamedTemporaryFile(delete=False) as t:
+    print(t.name)
+    with open(t.name, 'w+') as f:
+        f.write('test\n')
+        f.seek(0)
+        print(f.read())
+
+# 一時的にフォルダを作成して、その中で圧縮したりという用途に用いる
+with tempfile.TemporaryDirectory() as td:
+    print(td)
+
+# temporaryディレクトリを作成して、消したく無い場合
+temp_dir = tempfile.mkdtemp()
+print(temp_dir)
+
+
+# ターミナルコマンドをpython上から行う
+import subprocess
+
+
+# os.systemでもできるが非推奨、subprocessの方が高機能なので
+# os.system('ls')
+subprocess.run(['ls', '-al'])
+
+# 上記はリストで渡しているが、shell=Trueとするとパイプも使える
+# shellインジェクションを防ぐために非推奨
+subprocess.run('ls -al | grep lesson', shell=True)
+
+# reterncodeを利用すると、例外処理ができる
+r = subprocess.run('lsa', shell=True)
+print(r.returncode)
+
+
+print('######')
+# shell=Trueとせずにパイプを使用する場合
+p1 = subprocess.Popen(['ls', '-al'], stdout=subprocess.PIPE)
+p2 = subprocess.Popen(['grep', 'lesson'],
+                      stdin=p1.stdout,
+                      stdout=subprocess.PIPE)
+p1.stdout.close()
+# 出力がリストで渡される
+output = p2.communicate()
+print(output)
+
+import datetime
+
+now = datetime.datetime.now()
+print(now)
+print(now.isoformat())
+now_time = now.strftime('%Y-%m-%d')
+print(now_time)
+
+
+import time
+
+print('###')
+time.sleep(2)
+print('###')
+print(time.time())
+
+import os
+import shutil
+
+file_name = 'test.txt'
+
+if os.path.exists(file_name):
+    shutil.copy(file_name, f'{file_name}_{now_time}')
+
+with open(file_name, 'w') as f:
+    f.write('test')
